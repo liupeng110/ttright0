@@ -17,7 +17,7 @@
         android:name=".MyApp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Activity_Main">
+        <activity android:name=".activity.Activity_Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.Activity_Welcome"></activity>
+        <activity android:name=".activity.Activity_Main"></activity>
 
     </application>
 
